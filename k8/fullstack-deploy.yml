@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: prathiba15/k8-docker-backend:latest  # <-- change this
+          image: prathiba15/docker-backend:latest  # <-- change this
           ports:
             - containerPort: 8082
 ---
@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: prathiba15/k8-docker-frontend:latest  # <-- change this
+          image: prathiba15/docker-frontend:latest  # <-- change this
           ports:
             - containerPort: 80
           
